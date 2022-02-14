@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>DIO - Votação Ethereum</title>
+ <link href='https://fonts.googleapis.com/css?family=Open Sans:400,700' rel='stylesheet' type='text/css'>
+ <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+</head>
+<body class="container">
+ <h1>Sistema de votação Ethereum</h1>
+ <div class="table-responsive">
+  <table class="table table-bordered">
+   <thead>
+    <tr>
+     <th>Candidato</th>
+     <th>Votos</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td>Cassiano</td>
+     <td id="candidate-1"></td>
+    </tr>
+    <tr>
+     <td>Carlos</td>
+     <td id="candidate-2"></td>
+    </tr>
+    <tr>
+     <td>Joao</td>
+     <td id="candidate-3"></td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <input type="text" id="candidate" />
+ <a href="#" id="insertVote" class="btn btn-primary">Votar</a>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script type="module" src="./index.js"></script>
+  <script type="module"src="./main.js"></script>
+</html>
